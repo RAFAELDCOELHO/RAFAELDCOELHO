@@ -10,7 +10,7 @@ Independent researcher. Public work lives in these repositories.
 
 ## Same stack
 
-- **[personacore-np](https://github.com/RAFAELDCOELHO/personacore-np)** . inference engine for the 13.9M GPT in pure NumPy, optional MLX. No PyTorch at serve time.
+- **[personacore-np](https://github.com/RAFAELDCOELHO/personacore-np)** . inference engine for the 13.9M GPT in pure NumPy, optional MLX. No PyTorch at serve time. Fresh clone: `make infer` runs on the m1-demo-v1 slim checkpoint.
 - **[tensorforge](https://github.com/RAFAELDCOELHO/tensorforge)** . from-scratch deep learning framework. Retrained a real GPT checkpoint; forward and backward match PyTorch.
 
 ## Other public
