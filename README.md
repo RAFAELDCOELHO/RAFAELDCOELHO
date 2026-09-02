@@ -12,6 +12,10 @@
 
 Every repository below is public, runs offline where it can, and states what it does **not** prove.
 
+<a href="https://github.com/RAFAELDCOELHO/PersonaCore"><img src="https://raw.githubusercontent.com/RAFAELDCOELHO/PersonaCore/main/assets/demo_personachat.png" width="760" alt="PersonaCore teach-then-recall demo: the same question asked with the persona adapter on and off; the memory ON turn answers with the taught dog name, the memory OFF turn does not, and the token-id panel shows an identical prompt"></a>
+
+<sub><b>PersonaCore</b> — one question, twice. The prompt token ids are identical both times; only the 331,776 adapter parameters were switched off in between. Memory in the weights, not in a prompt or a database.</sub>
+
 </div>
 
 ## Research — machine learning built by hand
