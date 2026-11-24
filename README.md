@@ -4,6 +4,8 @@
 
 **Independent researcher.** From-scratch machine learning, and open tooling for the Brazilian financial system.
 
+I choose the problems, set the design and the rules for evidence, and make the decisions; AI coding agents (Claude Code, some Cursor) write most of the code.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
@@ -18,11 +20,11 @@ Every repository below is public, runs offline where it can, and states what it 
 
 </div>
 
-## Research — machine learning built by hand
+## Research — machine learning from first principles
 
 | Project | What it is | Proof you can run |
 | :-- | :-- | :-- |
-| **[PersonaCore](https://github.com/RAFAELDCOELHO/PersonaCore)** | A from-scratch 13.9M-parameter GPT — tokenizer, decoder, training loop, LoRA and EWC all hand-written in PyTorch — where personalization lives in the weights, not a database. Includes an adversarial privacy audit of what LoRA memory reveals under black-box attack, and a selective-erasure attempt whose failure is published in full. | `make demo` → streaming story demo on a laptop CPU. Slim checkpoint: [`m1-demo-v1`](https://github.com/RAFAELDCOELHO/PersonaCore/releases/tag/m1-demo-v1) |
+| **[PersonaCore](https://github.com/RAFAELDCOELHO/PersonaCore)** | A from-scratch 13.9M-parameter GPT — tokenizer, decoder, training loop, LoRA and EWC all implemented directly in PyTorch — where personalization lives in the weights, not a database. Includes an adversarial privacy audit of what LoRA memory reveals under black-box attack, and a selective-erasure attempt whose failure is published in full. | `make demo` → streaming story demo on a laptop CPU. Slim checkpoint: [`m1-demo-v1`](https://github.com/RAFAELDCOELHO/PersonaCore/releases/tag/m1-demo-v1) |
 | **[tensorforge](https://github.com/RAFAELDCOELHO/tensorforge)** | A deep learning framework from scratch: scalar autograd, NumPy tensors, Transformer primitives, full training loop. A real, already-trained GPT checkpoint was retrained on it and the numbers match PyTorch forward and backward — not a reimplementation validated against itself. | Parity tests against PyTorch |
 | **[personacore-np](https://github.com/RAFAELDCOELHO/personacore-np)** | Inference engine for the same 13.9M GPT in pure NumPy, with optional MLX on Apple GPU. No PyTorch at serve time. | `make infer` → downloads the public checkpoint and runs the parity suite |
 
